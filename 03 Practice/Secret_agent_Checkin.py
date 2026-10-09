@@ -1,0 +1,6 @@
+agent_code = input("Enter your code name: ")
+agent_code = agent_code.upper().strip()
+print(f"Agent Name: {agent_code}")
+print(f"Characters: {len(agent_code)}")
+print(f"Only letters: {agent_code.isalpha()}")
+print(f"First A Location: {agent_code.find("A")}")
