@@ -50,7 +50,6 @@ def get_user_guess():
     """Gets the User Guess and prints the random number"""
     print(f"Level: {Level}")
     print("-".join(Random_string))
-    time.sleep(5)
     dots = 0
     while dots < 5:
         print(".", end = "", flush = True)
@@ -64,7 +63,7 @@ def get_user_guess():
 def check_if_guess_is_correct():
     """Checks if Player Guess is correct"""
     if user_guess.upper() == "".join(Random_string):
-        
+        print("Correct")
         return True
     else:
         return False
