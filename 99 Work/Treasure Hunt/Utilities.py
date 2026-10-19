@@ -2,8 +2,8 @@ import os
 
 def getValidInt(prompt, min = 0, max = 100):
     while True:
-        P_Input = (input(prompt))
-        if P_Input.isdigit() == True and  P_Input >= min and max > P_Input:
+        P_Input = int(input(prompt))
+        if P_Input >= min and max >= P_Input:
             return P_Input
 
 
