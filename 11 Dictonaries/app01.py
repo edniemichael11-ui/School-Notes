@@ -69,3 +69,12 @@ for item in Zach_capitals:
 # We want to iterate over all keys and values
 for states, capital in Zach_capitals.items():
     print(f"{capital}, {states}")
+
+# Find a key by its values
+# look up the key for the value "Allentown", if not found, print not found:
+for key, value in Zach_capitals.items():
+    if value == "Allentown":
+        print(key)
+        break
+else: 
+    print("Not Found")
