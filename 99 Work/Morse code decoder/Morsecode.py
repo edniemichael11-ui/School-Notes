@@ -83,18 +83,20 @@ def decode_more_code():
 Morse_Code_list = []
 word_list = []
 
+def main():
+    Action = Start_Menu()
+    while True:
+        if Action == "A":
+            encode_into_morse_code()
+            break
+        elif Action == "B":
+            decode_more_code()
+            break
+        elif Action == "C":
+            print("Goodbye")
+            break
+        else:
+            print("Invalid Entry")
 
-Action = Start_Menu()
-while True:
-    if Action == "A":
-        encode_into_morse_code()
-        break
-    elif Action == "B":
-        decode_more_code()
-        break
-    elif Action == "C":
-        print("Goodbye")
-        break
-    else:
-        print("Invalid Entry")
-
+if __name__ == "__main__":
+    main()
