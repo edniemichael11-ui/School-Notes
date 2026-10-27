@@ -21,3 +21,16 @@ add = lambda x, y: x + y
 
 print(add(3,4)) #7
 print(add(4,5)) #9
+
+
+max_value = lambda x, y: x if x > y else y
+
+print(max_value(4,5))
+print(max_value(9,8))
+
+
+#lamda function that accepts first and last name and returns 
+#a username is first initial, last name, and the length
+
+username = lambda first, last : first[0] + last + str(len(last)+1)
+print(username("Josie", "Michaels"))
