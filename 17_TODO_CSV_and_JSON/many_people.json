@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Nami",
+        "age": 35,
+        "job": "Pirate"
+    },
+    {
+        "name": "Jace",
+        "age": 53,
+        "job": "Banker"
+    },
+    {
+        "name": "K-Luh",
+        "age": 35,
+        "job": "SuperVillian"
+    }
+]
